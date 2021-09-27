@@ -1,0 +1,18 @@
+<html>
+ <head>
+  <title> Java Script fuction exaple</title>
+  <script language="JavaScript">
+   function factorial(num){
+    if (num>1){var result;result = num * factorial (num-1);return result;}
+    else {return num;}}
+  </script>
+ </head>
+ <body bgcolor=white>
+  <h1> Factorial calculation </h1>
+  <script language="JavaScript">
+   document.write("<ul>")
+   for (i=1;i<11;i++){document.write("<li>"+i+"!="+factorial(i)+"<br>")}
+   document.write("</ul>")
+  </script>
+ </body>
+</html>
